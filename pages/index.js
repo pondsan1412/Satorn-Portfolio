@@ -32,15 +32,14 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        What's up! &apos;I'm an experinced programmer living in bangkok!
       </Box>
-
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Satorn Sukkang
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Web developer | passionate with discord bot! (Musician / Developer )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -59,7 +58,7 @@ const Home = () => (
             overflow="hidden"
           >
             <Image
-              src="/images/takuya.jpg"
+              src="/images/satorn.jpg"
               alt="Profile image"
               width="100"
               height="100"
@@ -73,26 +72,33 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
+          Satorn Sukkang is a freelance full-stack developer based in Bangkok,
+          passionate about programming and creating projects like Discord bots
+          and challenging websites. He aims to collaborate on impactful and meaningful
+          projects that benefit others in the future. Problem-solving, especially in
+          programming, is one of his strengths. When he's not in front of his computer,
+          Satorn enjoys meeting friends, exercising, and playing music--whether 
+          it's guitar, piano, or drums. He has a love for classical music, flim soundtracks
+          and gaming. His work includes several innovative Discord bots, such as {' '}   
           <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
-            Inkdrop
+            Yugimeow
           </Link>
-          . He publishes content for marketing his products and his YouTube
+          .  and a mario kart bot called {' '}
+          <Link as={NextLink} href="/works/None" passHref scroll={false}>
+            WR MK8DX
+          </Link>
+        
+          . He publishes content for advertising his products and his YouTube
           channel called &quot;
           <Link
             as={NextLink}
-            href="https://www.youtube.com/devaslife"
+            href="https://www.youtube.com/@PondThunder1"
             passHref
             target="_blank"
           >
-            Dev as Life
+            Pond Thunder.
           </Link>
-          &quot; has more than 100k subscribers.
+          &quot;.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -112,23 +118,44 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>1998</BioYear>
+          Born in Bangkok(กรุงเทพ), Thailand.
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>2017</BioYear>
+          Graduated from Pasanusornbangkae Commercial Technological College
+          <p></p>
+          (เทคโนโลยีพานิชย์การภาษานุสรณ์บางแค)
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>2017</BioYear>
+          First time learning about .NET and building an application that could cheat in a game.
+          
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Working as a freelancer
+          <BioYear>2019</BioYear>
+          Internships that are not related to technology
+
         </BioSection>
+        <BioSection>
+          <BioYear>2020</BioYear>
+          First time Learning python, javascript, html, css
+        </BioSection>
+        <BioSection>
+          <BioYear>2021</BioYear>
+          I made my first Discord bot called 'SLx bot' for use in the Mario Kart SLx team server
+        </BioSection>
+        <BioSection>
+          <BioYear>2022</BioYear>
+          deployed bot called "WR MK8DX"
+        </BioSection>
+        <BioSection>
+          <BioYear>2024</BioYear>
+          deployed bot called "Yugimeow"
+          
+          
+        </BioSection>
+        
       </Section>
 
       <Section delay={0.3}>
