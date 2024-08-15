@@ -39,7 +39,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Satorn Sukkang
           </Heading>
-          <p>Web developer | passionate with discord bot! (Musician / Developer )</p>
+          <p>Web Developer | Passionate Discord Bot Developer & Musician</p>
         </Box>
         <Box
           flexShrink={0}
