@@ -71,14 +71,9 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Satorn Sukkang is a freelance full-stack developer based in Bangkok,
-          passionate about programming and creating projects like Discord bots
-          and challenging websites. He aims to collaborate on impactful and meaningful
-          projects that benefit others in the future. Problem-solving, especially in
-          programming, is one of his strengths. When he&apos;s not in front of his computer,
-          Satorn enjoys meeting friends, exercising, and playing music--whether 
-          it&apos;s guitar, piano, or drums. He has a love for classical music, flim soundtracks
-          and gaming. His work includes several innovative Discord bots, such as {' '}   
+        Satorn Sukkang is a freelance programmer from Bangkok specializing in website 
+        development and Discord bots. His projects include notable bots like Yugimeow and WR MK8DX. 
+        He also manages a YouTube channel called Pond Thunder. {' '}   
           <Link as={NextLink} href="/works/yugimeow" passHref scroll={false}>
             Yugimeow
           </Link>
@@ -113,49 +108,48 @@ const Home = () => (
       </Section>
 
       <Section delay={0.2}>
-        <Heading as="h3" variant="section-title">
-          Bio
-        </Heading>
-        <BioSection>
-          <BioYear>1998</BioYear>
-          Born in Bangkok(กรุงเทพ), Thailand.
-        </BioSection>
-        <BioSection>
-          <BioYear>2016</BioYear>
-          Graduated from Pasanusornbangkae Commercial Technological College
-          <p></p>
-          (เทคโนโลยีพานิชย์การภาษานุสรณ์บางแค)
-        </BioSection>
-        <BioSection>
-          <BioYear>2015</BioYear>
-          First time learning about .NET and building an application that could cheat in a game.
-          
-        </BioSection>
-        <BioSection>
-          <BioYear>2019</BioYear>
-          Internships that are not related to technology
+          <Heading as="h3" variant="section-title">
+            Bio
+          </Heading>
+          <Section delay={0.2}>
+      <BioSection>
+        <BioYear>2024</BioYear>
+        Deployed bot called Yugimeow
+      </BioSection>
+      <BioSection>
+        <BioYear>2022</BioYear>
+        Deployed bot called WR MK8DX
+      </BioSection>
+      <BioSection>
+        <BioYear>2021</BioYear>
+        I made my first Discord bot called SLx bot for use in the Mario Kart SLx team server
+      </BioSection>
+      <BioSection>
+        <BioYear>2020</BioYear>
+        First time Learning python, javascript, html, css
+      </BioSection>
+      <BioSection>
+        <BioYear>2019</BioYear>
+        Internships that are not related to technology
+      </BioSection>
+      <BioSection>
+        <BioYear>2016</BioYear>
+        Graduated from Pasanusornbangkae Commercial Technological College
+        <p></p>
+        (เทคโนโลยีพานิชย์การภาษานุสรณ์บางแค)
+      </BioSection>
+      <BioSection>
+        <BioYear>2015</BioYear>
+        First time learning about .NET and building an application that could cheat in a game.
+      </BioSection>
+      <BioSection>
+        <BioYear>1998</BioYear>
+        Born in Bangkok(กรุงเทพ), Thailand.
+      </BioSection>
+        </Section>
 
-        </BioSection>
-        <BioSection>
-          <BioYear>2020</BioYear>
-          First time Learning python, javascript, html, css
-        </BioSection>
-        <BioSection>
-          <BioYear>2021</BioYear>
-          I made my first Discord bot called SLx bot for use in the Mario Kart SLx team server
-        </BioSection>
-        <BioSection>
-          <BioYear>2022</BioYear>
-          deployed bot called WR MK8DX
-        </BioSection>
-        <BioSection>
-          <BioYear>2024</BioYear>
-          deployed bot called Yugimeow
-          
-          
-        </BioSection>
-        
-      </Section>
+        </Section>
+
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
