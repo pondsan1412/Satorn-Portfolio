@@ -10,15 +10,15 @@ import {
   ListItem,
   useColorModeValue
 } from '@chakra-ui/react'
-import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon, MoonIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoFacebook } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import thumbyugimeow from '../public/images/works/yugimeow web.png'
 import Image from 'next/image'
 
 const Home = () => (
@@ -32,7 +32,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        What's up! &apos;I'm an experinced programmer living in bangkok!
+        What's up! I'm an experinced programmer living in bangkok!
       </Box>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
@@ -80,11 +80,11 @@ const Home = () => (
           Satorn enjoys meeting friends, exercising, and playing music--whether 
           it's guitar, piano, or drums. He has a love for classical music, flim soundtracks
           and gaming. His work includes several innovative Discord bots, such as {' '}   
-          <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
+          <Link as={NextLink} href="/works/yugimeow" passHref scroll={false}>
             Yugimeow
           </Link>
           .  and a mario kart bot called {' '}
-          <Link as={NextLink} href="/works/None" passHref scroll={false}>
+          <Link as={NextLink} href="https://github.com/pondsan1412/MK8DX-WR-Bot" passHref scroll={false}>
             WR MK8DX
           </Link>
         
@@ -122,13 +122,13 @@ const Home = () => (
           Born in Bangkok(กรุงเทพ), Thailand.
         </BioSection>
         <BioSection>
-          <BioYear>2017</BioYear>
+          <BioYear>2016</BioYear>
           Graduated from Pasanusornbangkae Commercial Technological College
           <p></p>
           (เทคโนโลยีพานิชย์การภาษานุสรณ์บางแค)
         </BioSection>
         <BioSection>
-          <BioYear>2017</BioYear>
+          <BioYear>2015</BioYear>
           First time learning about .NET and building an application that could cheat in a game.
           
         </BioSection>
@@ -163,103 +163,92 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
+      
+          <Link href="https://www.facebook.com/pondcomp/videos/570518539762969" target="_blank">
+            Guitar
           </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
+           ,
+           Virtual drum,{' '}
+          
+          <Link href="https://www.youtube.com/watch?v=9pUq05J6-Ro" target="_blank">
+            piano(virtual piano),{' '}
+          
           </Link>
-          , Leica, Machine Learning
+          <Link href="https://www.youtube.com/watch?v=LkGdm3X1qxM&feature=youtu.be" target="_blank">
+            eSport (valorant)
+          </Link>
+          
+          
         </Paragraph>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          On the web
+          Social
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/pondsan1412" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @pondsan1412
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://twitter.com/Pondmk1412" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @inkdrop_app (English)
+                @Pondmk1412
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
+            <Link href="https://facebook.com/pondcomp" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
+                leftIcon={<IoLogoFacebook />}
               >
-                @craftzdog (日本語)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoInstagram />}
-              >
-                @craftzdog
+                @ศธร สุขขัง
               </Button>
             </Link>
           </ListItem>
         </List>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          
           <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
-            thumbnail={thumbYouTube}
+            href="https://yugimeow.vercel.app"
+            title="Yugimeow"
+            thumbnail={thumbyugimeow}
           >
-            My YouTube channel (&gt;150k subs)
-          </GridItem>
-          <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
-          >
-            A Markdown note-taking app
+            A Yu-Gi-Oh card's text in thai langauge!
           </GridItem>
         </SimpleGrid>
 
         <Heading as="h3" variant="section-title">
-          Newsletter
+          Join yugimeow's member!
         </Heading>
         <p>
-          Join me on a behind-the-scenes coding journey. Weekly updates on
-          projects, tutorials, and videos
+          become yugimeow's guardian! {' '}
         </p>
 
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="https://www.devas.life/"
+            href="https://yugimeow.vercel.app/support"
             scroll={false}
-            leftIcon={<EmailIcon />}
+            leftIcon={<MoonIcon />}
             colorScheme="teal"
           >
-            Sign up my newsletter here
+            Jump to donate page
           </Button>
         </Box>
       </Section>

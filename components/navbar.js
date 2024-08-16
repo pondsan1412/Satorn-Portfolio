@@ -80,13 +80,16 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="/wallpapers" path={path}>
-            Wallpapers
+
+          <LinkItem href="https://github.com/pondsan1412" path={path}>
+            Github
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
+          <LinkItem href="" path={path}>
+            download my cv
           </LinkItem>
-          <LinkItem href="https://uses.craftz.dog/">Uses</LinkItem>
+
+          
+          
           <LinkItem
             target="_blank"
             href="https://github.com/craftzdog/craftzdog-homepage"
@@ -119,15 +122,9 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/works">
                   Works
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/wallpapers">
-                  Wallpapers
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/posts">
-                  Posts
-                </MenuItem>
-                <MenuItem as={MenuLink} href="https://uses.craftz.dog/">
-                  Uses
-                </MenuItem>
+                
+                
+               
                 <MenuItem
                   as={Link}
                   href="https://github.com/craftzdog/craftzdog-homepage"

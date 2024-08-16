@@ -12,14 +12,13 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="Margelo">
+  <Layout title="So-chan">
     <Container>
       <Title>
-        Margelo <Badge>2022</Badge>
+        So-chan <Badge>2022</Badge>
       </Title>
       <P>
-        The corporate website for the elite app development and contracting
-        agency based in Vienna, Austria.
+        A discord music bot using in over 100+ server 
       </P>
       <P>
         <Link href="https://twitter.com/mrousavy" target="_blank">

@@ -17,10 +17,10 @@ const Wallpapers = () => (
       <Box my={4}>
         The wallpaper packs offer a selection of carefully curated images
         from&nbsp;
-        <Link as={NextLink} href="https://www.youtube.com/devaslife">
-          the devaslife YouTube channel
+        <Link as={NextLink} href="https://www.youtube.com/PondThunder1">
+          the Pond Thunde youtube channel
         </Link>
-        , known for its programming content.
+        , many content.
       </Box>
 
       <Section>
