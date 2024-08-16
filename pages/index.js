@@ -31,7 +31,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        What's up! I'm an experinced programmer living in bangkok!
+        What&apos;s up! I&apos;m an experinced programmer living in bangkok!
       </Box>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
@@ -75,9 +75,9 @@ const Home = () => (
           passionate about programming and creating projects like Discord bots
           and challenging websites. He aims to collaborate on impactful and meaningful
           projects that benefit others in the future. Problem-solving, especially in
-          programming, is one of his strengths. When he's not in front of his computer,
+          programming, is one of his strengths. When he&apos;s not in front of his computer,
           Satorn enjoys meeting friends, exercising, and playing music--whether 
-          it's guitar, piano, or drums. He has a love for classical music, flim soundtracks
+          it&apos;s guitar, piano, or drums. He has a love for classical music, flim soundtracks
           and gaming. His work includes several innovative Discord bots, such as {' '}   
           <Link as={NextLink} href="/works/yugimeow" passHref scroll={false}>
             Yugimeow
@@ -142,15 +142,15 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          I made my first Discord bot called 'SLx bot' for use in the Mario Kart SLx team server
+          I made my first Discord bot called SLx bot for use in the Mario Kart SLx team server
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          deployed bot called "WR MK8DX"
+          deployed bot called WR MK8DX
         </BioSection>
         <BioSection>
           <BioYear>2024</BioYear>
-          deployed bot called "Yugimeow"
+          deployed bot called Yugimeow
           
           
         </BioSection>
@@ -228,15 +228,15 @@ const Home = () => (
             title="Yugimeow"
             thumbnail={thumbyugimeow}
           >
-            A Yu-Gi-Oh card's text in thai langauge!
+            A Yu-Gi-Oh card&apos;s text in thai langauge!
           </GridItem>
         </SimpleGrid>
 
         <Heading as="h3" variant="section-title">
-          Join yugimeow's member!
+          Join yugimeow&apos;s member!
         </Heading>
         <p>
-          become yugimeow's guardian! {' '}
+          become yugimeow&apos;s guardian! {' '}
         </p>
 
         <Box align="center" my={4}>

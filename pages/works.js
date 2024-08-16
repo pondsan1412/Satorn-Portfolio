@@ -19,7 +19,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="yugimeow" title="Yugimeow" thumbnail={thumbyugimeow}>
-            A discord bot giving you Yu-Gi-Oh card's information in discord platforms!
+            A discord bot giving you Yu-Gi-Oh card &apos;s information in discord platforms!
           </WorkGridItem>
         </Section>
        
@@ -49,12 +49,12 @@ const Works = () => (
         </Section>
         <Section>
           <WorkGridItem id="googlesheet_bot" thumbnail={thumbslx} title="Google Sheet bot">
-            Google sheet Management by discord bot in private server for mario kart records team's tables
+            Google sheet Management by discord bot in private server for mario kart records team&apos;s tables
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem id="miebot" thumbnail={thumbverify} title="Verify bot">
-            To verify member if they're actually from NSO2 online game
+            To verify member if they&apos;re actually from NSO2 online game
             bot question require your game id, your ID card in game etc.
           </WorkGridItem>
         </Section>
@@ -66,14 +66,14 @@ const Works = () => (
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Old Application I've made
+          Old Application I&apos;ve made
         </Heading>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
           <WorkGridItem id="#" thumbnail={thumbpro} title="Dark matter (2017)">
-            TalesRunner Cheat Application called "Dark Matter" 
+            TalesRunner Cheat Application called &ldquo;Dark Matter&ldquo;
             Tech Stack: VB.net
           </WorkGridItem>
         </Section>

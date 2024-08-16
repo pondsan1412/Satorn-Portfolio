@@ -18,7 +18,7 @@ const Work = () => (
         Yugimeow <Badge>2024-</Badge>
       </Title>
       <P>
-        A Discord bot gave you card's information and translate effect card into thai language
+        A Discord bot gave you card&apos;s information and translate effect card into thai language
         
       </P>
       <List ml={4} my={4}>
