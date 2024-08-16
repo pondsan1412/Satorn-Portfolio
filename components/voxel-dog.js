@@ -12,7 +12,7 @@ const VoxelDog = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlDogGLB = 'minecraft_player_wide_rigged_with_outer_layer.glb'
+  const urlDogGLB = 'gaming_set_up.glb'
 
 
   const handleWindowResize = useCallback(() => {

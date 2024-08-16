@@ -16,8 +16,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoFacebook } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
+import { IoLogoTwitter, IoLogoGithub, IoLogoFacebook } from 'react-icons/io5'
 import thumbyugimeow from '../public/images/works/yugimeow web.png'
 import Image from 'next/image'
 
@@ -58,7 +57,7 @@ const Home = () => (
             overflow="hidden"
           >
             <Image
-              src="/images/satorn.jpg"
+              src="/images/Satorn.png"
               alt="Profile image"
               width="100"
               height="100"

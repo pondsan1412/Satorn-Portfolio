@@ -7,10 +7,10 @@ import {
   ListItem,
   SimpleGrid,
   UnorderedList,
-  Image
+  AspectRatio
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { ExternalLinkIcon} from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
@@ -47,10 +47,19 @@ const Work = () => (
         <ListItem>
           <Meta>Stack</Meta>
           <span>Python, discord.py, requests</span>
+          
         </ListItem>
         <ListItem>
           <Meta>Presentation</Meta>
             undeployed
+          
+        </ListItem>
+        <ListItem>
+          <Meta>Example Video</Meta>
+          <Link href="https://www.youtube.com/watch?v=hVBV-jGPSAg">
+            Example how to use bot <ExternalLinkIcon mx='2px' />
+          </Link>
+          
         </ListItem>
         
         <ListItem>
@@ -70,6 +79,15 @@ const Work = () => (
         <WorkImage src="/images/table.png" alt="wrmkbot" />
         <WorkImage src="/images/player_rank.png" alt="menkiki" />
       </SimpleGrid>
+      <AspectRatio maxW="640px" ratio={1.7} my={4}>
+        <iframe
+          src="https://www.youtube.com/embed/hVBV-jGPSAg?si=4nGxqJtd06YxS2Fi"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </AspectRatio>
     </Container>
   </Layout>
 )

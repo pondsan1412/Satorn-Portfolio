@@ -2,20 +2,13 @@ import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
-
-
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
-
-import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
-import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
-import thumbStyly from '../public/images/works/styly_eyecatch.png'
-import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
-import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 import thumbyugimeow from '../public/images/works/yugimeow_t1.jpg'
 import thumbmk from '../public/template.jpg'
-import thumbchat from '../public/images/chat.png'
+import thumbchat from '../public/images/works/chatbubbles.jpg'
+import thumbsochan from '../public/images/works/sochanads.png'
+import thumbslx from '../public/images/works/leaderboard_slx.jpg'
+import thumbverify from '../public/images/works/verify_tem.jpg'
+import thumbpro from '../public/images/works/raw_app.png'
 const Works = () => (
   <Layout title="Works">
     <Container>
@@ -41,72 +34,50 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="Chat Bubbles for obs" thumbnail={thumbchat} title="Chat Bubbles for OBS">
+          <WorkGridItem id="chatbubbles" thumbnail={thumbchat} title="Chat Bubbles for OBS">
             an app that litterally can do bubbes message appear on obs screen or videos
           </WorkGridItem>
         </Section>
-      </SimpleGrid>
-
-      <Section delay={0.2}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Collaborations
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.3}>
-          <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">
-            A website of the elite app development and contracting agency based
-            in Austria
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.3}>
+        <Section delay={0.1}>
           <WorkGridItem
-            id="modetokyo"
-            thumbnail={thumbModeTokyo}
-            title="mode.tokyo"
+          id="sochan"
+          title='So-Chan'
+          thumbnail={thumbsochan}
           >
-            The mode magazine for understanding to personally enjoy Japan
+            A discord music bot with thai languages supported.
           </WorkGridItem>
         </Section>
-        <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbStyly} title="Styly">
-            A VR Creative tools for fashion brands
+        <Section>
+          <WorkGridItem id="googlesheet_bot" thumbnail={thumbslx} title="Google Sheet bot">
+            Google sheet Management by discord bot in private server for mario kart records team's tables
           </WorkGridItem>
         </Section>
+        <Section>
+          <WorkGridItem id="miebot" thumbnail={thumbverify} title="Verify bot">
+            To verify member if they're actually from NSO2 online game
+            bot question require your game id, your ID card in game etc.
+          </WorkGridItem>
+        </Section>
+        
+
       </SimpleGrid>
 
       <Section delay={0.4}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Old works
+          Old Application I've made
         </Heading>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
-            Twitter client app for iPhone Safari
+          <WorkGridItem id="#" thumbnail={thumbpro} title="Dark matter (2017)">
+            TalesRunner Cheat Application called "Dark Matter" 
+            Tech Stack: VB.net
           </WorkGridItem>
         </Section>
-        <Section delay={0.5}>
-          <WorkGridItem
-            id="freedbtagger"
-            thumbnail={thumbFreeDBTagger}
-            title="freeDBTagger"
-          >
-            Automatic audio file tagging tool using FreeDB for Windows
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.6}>
-          <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
-            P2P private file sharing tool with MSN Messenger integration for
-            Windows
-          </WorkGridItem>
-        </Section>
+      
       </SimpleGrid>
     </Container>
   </Layout>
