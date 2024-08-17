@@ -134,17 +134,16 @@ const Home = () => (
       <BioSection>
         <BioYear>2016</BioYear>
         Graduated from Pasanusornbangkae Commercial Technological College
-        <p></p>
-        (เทคโนโลยีพานิชย์การภาษานุสรณ์บางแค)
       </BioSection>
       <BioSection>
         <BioYear>2015</BioYear>
         First time learning about .NET and building an application that could cheat in a game.
       </BioSection>
       <BioSection>
-        <BioYear>2002</BioYear>
-        Enrolled at Wat Muang School, Primary Education level
+        <BioYear>199x</BioYear>
+        Born in Bangkok, Thailand
       </BioSection>
+      
         </Section>
 
         </Section>
