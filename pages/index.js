@@ -17,7 +17,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoGithub, IoLogoFacebook } from 'react-icons/io5'
-import thumbyugimeow from '../public/images/works/yugimeow web.png'
+import thumbyugimeow from '../public/images/works/yugimeow_web.png'
 import Image from 'next/image'
 
 const Home = () => (
@@ -31,7 +31,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        What&apos;s up! I&apos;m an experinced programmer living in bangkok!
+        What&apos;s up! I&apos;m an experienced programmer living in bangkok!
       </Box>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
@@ -72,8 +72,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
         Satorn Sukkang is a freelance programmer from Bangkok specializing in website 
-        development and Discord bots. His projects include notable bots like Yugimeow and WR MK8DX. 
-        He also manages a YouTube channel called Pond Thunder. {' '}   
+        development and Discord bots. His projects include notable bots like Yugimeow and WR MK8DX. {' '}   
           <Link as={NextLink} href="/works/yugimeow" passHref scroll={false}>
             Yugimeow
           </Link>
@@ -143,8 +142,8 @@ const Home = () => (
         First time learning about .NET and building an application that could cheat in a game.
       </BioSection>
       <BioSection>
-        <BioYear>1998</BioYear>
-        Born in Bangkok(กรุงเทพ), Thailand.
+        <BioYear>2002</BioYear>
+        Enrolled at Wat Muang School, Primary Education level
       </BioSection>
         </Section>
 

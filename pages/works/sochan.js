@@ -54,7 +54,7 @@ const Work = () => (
        
       </List>
 
-      <WorkImage src="/images/works/sochan.png" alt="Website" />
+      <WorkImage src="/images/works/sochan.PNG" alt="Website" />
 
     </Container>
   </Layout>

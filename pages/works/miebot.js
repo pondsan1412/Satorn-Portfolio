@@ -45,13 +45,13 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/verify_raw.png" alt="Verify.bot" />
-      <WorkImage src="/images/works/asking.png" alt="Verify.bot" />
+      <WorkImage src="/images/works/verify_raw.PNG" alt="Verify.bot" />
+      <WorkImage src="/images/works/asking.PNG" alt="Verify.bot" />
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/verified_member.png" alt="Verify.bot" />
-        <WorkImage src="/images/works/to_avoid_pic_gone.png" alt="Verify.bot" />
+        <WorkImage src="/images/works/verified_member.PNG" alt="Verify.bot" />
+        <WorkImage src="/images/works/to_avoid_pic_gone.PNG" alt="Verify.bot" />
       </SimpleGrid>
-      <WorkImage src="/images/works/calling.png" alt="Verify.bot" />
+      <WorkImage src="/images/works/calling.PNG" alt="Verify.bot" />
     </Container>
   </Layout>
 )

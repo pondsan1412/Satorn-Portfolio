@@ -8,7 +8,7 @@ import thumbchat from '../public/images/works/chatbubbles.jpg'
 import thumbsochan from '../public/images/works/sochanads.png'
 import thumbslx from '../public/images/works/leaderboard_slx.jpg'
 import thumbverify from '../public/images/works/verify_tem.jpg'
-import thumbpro from '../public/images/works/raw_app.png'
+import thumbpro from '../public/images/works/raw_app.PNG'
 const Works = () => (
   <Layout title="Works">
     <Container>
