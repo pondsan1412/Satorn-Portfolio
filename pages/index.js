@@ -31,7 +31,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        What&apos;s up! I&apos;m an experienced programmer living in bangkok!
+        What&apos;s up! I&apos;m an experienced programmer living in Bangkok!
       </Box>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
@@ -71,16 +71,15 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-        Satorn Sukkang is a freelance programmer from Bangkok specializing in website 
-        development and Discord bots. His projects include notable bots like Yugimeow and WR MK8DX. {' '}   
+          Satorn Sukkang is a freelance programmer from Bangkok specializing in website 
+          development and Discord bots. His projects include notable bots like Yugimeow and WR MK8DX. {' '}   
           <Link as={NextLink} href="/works/yugimeow" passHref scroll={false}>
             Yugimeow
           </Link>
-          .  and a mario kart bot called {' '}
+          . and a Mario Kart bot called {' '}
           <Link as={NextLink} href="https://github.com/pondsan1412/MK8DX-WR-Bot" passHref scroll={false}>
             WR MK8DX
           </Link>
-        
           . He publishes content for advertising his products and his YouTube
           channel called &quot;
           <Link
@@ -89,7 +88,7 @@ const Home = () => (
             passHref
             target="_blank"
           >
-            Pond Thunder.
+            Pond Thunder
           </Link>
           &quot;.
         </Paragraph>
@@ -107,69 +106,58 @@ const Home = () => (
       </Section>
 
       <Section delay={0.2}>
-          <Heading as="h3" variant="section-title">
-            Bio
-          </Heading>
-          <Section delay={0.2}>
-      <BioSection>
-        <BioYear>2024</BioYear>
-        Deployed bot called Yugimeow
-      </BioSection>
-      <BioSection>
-        <BioYear>2022</BioYear>
-        Deployed bot called WR MK8DX
-      </BioSection>
-      <BioSection>
-        <BioYear>2021</BioYear>
-        I made my first Discord bot called SLx bot for use in the Mario Kart SLx team server
-      </BioSection>
-      <BioSection>
-        <BioYear>2020</BioYear>
-        First time Learning python, javascript, html, css
-      </BioSection>
-      <BioSection>
-        <BioYear>2019</BioYear>
-        Internships that are not related to technology
-      </BioSection>
-      <BioSection>
-        <BioYear>2016</BioYear>
-        Graduated from Pasanusornbangkae Commercial Technological College
-      </BioSection>
-      <BioSection>
-        <BioYear>2015</BioYear>
-        First time learning about .NET and building an application that could cheat in a game.
-      </BioSection>
-      <BioSection>
-        <BioYear>199x</BioYear>
-        Born in Bangkok, Thailand
-      </BioSection>
-      
-        </Section>
+        <Heading as="h3" variant="section-title">
+          Bio
+        </Heading>
+        <BioSection>
+          <BioYear>2024</BioYear>
+          Joining Mass Corporation Co., Ltd. (on accepting.)-
+          <p>{'       '}as an back-end developer</p>
+        </BioSection>
+        <BioSection>
+          <BioYear>2020-2024</BioYear>
+          Freelance programmer and work as rider for many apps
+        </BioSection>
+        <BioSection>
+          <BioYear>2019</BioYear>
+          Internships that are not related to technology
+        </BioSection>
+        <BioSection>
+          <BioYear>2016</BioYear>
+          Graduated from Pasanusornbangkae Commercial Technological College
+        </BioSection>
+        <BioSection>
+          <BioYear>2015</BioYear>
+          First time learning about .NET and building an application that could cheat in a game.
+        </BioSection>
+        <BioSection>
+          <BioYear>199x</BioYear>
+          Born in Bangkok, Thailand
+        </BioSection>
+      </Section>
 
-        </Section>
-
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          My TechStack
+        </Heading>
+      </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
         <Paragraph>
-      
           <Link href="https://www.facebook.com/pondcomp/videos/570518539762969" target="_blank">
             Guitar
           </Link>
-           ,
-           Virtual drum,{' '}
-          
+          , Virtual drum,{' '}
           <Link href="https://www.youtube.com/watch?v=9pUq05J6-Ro" target="_blank">
-            piano(virtual piano),{' '}
-          
+            piano (virtual piano)
           </Link>
+          , and{' '}
           <Link href="https://www.youtube.com/watch?v=LkGdm3X1qxM&feature=youtu.be" target="_blank">
-            eSport (valorant)
+            eSport (Valorant)
           </Link>
-          
-          
         </Paragraph>
       </Section>
 
@@ -214,21 +202,20 @@ const Home = () => (
         </List>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          
           <GridItem
             href="https://yugimeow.vercel.app"
             title="Yugimeow"
             thumbnail={thumbyugimeow}
           >
-            A Yu-Gi-Oh card&apos;s text in thai langauge!
+            A Yu-Gi-Oh card&apos;s text in Thai language!
           </GridItem>
         </SimpleGrid>
 
         <Heading as="h3" variant="section-title">
-          Join yugimeow&apos;s member!
+          Join Yugimeow&apos;s member!
         </Heading>
         <p>
-          become yugimeow&apos;s guardian! {' '}
+          Become Yugimeow&apos;s guardian! {' '}
         </p>
 
         <Box align="center" my={4}>

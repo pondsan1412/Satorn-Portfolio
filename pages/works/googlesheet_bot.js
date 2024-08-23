@@ -12,7 +12,7 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="pichu*pichu">
+  <Layout title="googlesheet">
     <Container>
       <Title>
         Google Sheet bot <Badge>2022</Badge>
@@ -35,7 +35,7 @@ const Work = () => (
 
       <UnorderedList my={4}>
         <ListItem>
-          <Link href="http://www.donpy.net/standard-entry/app-reiview/4303.html">
+          <Link href="#">
             <Badge mr={2}>Bot&apos;s Source code</Badge>
             https://github.com/pondsan1412/SLxBot {' '}
             <ExternalLinkIcon mx="2px" />

@@ -9,6 +9,7 @@ import thumbsochan from '../public/images/works/sochanads.png'
 import thumbslx from '../public/images/works/leaderboard_slx.jpg'
 import thumbverify from '../public/images/works/verify_tem.jpg'
 import thumbpro from '../public/images/works/raw_app.PNG'
+import thumbtr_api from '../public/images/works/tr_game.jpg'
 const Works = () => (
   <Layout title="Works">
     <Container>
@@ -16,7 +17,14 @@ const Works = () => (
         Works
       </Heading>
 
+
+
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem id="tr_game_api" title="TalesRunner APIs" thumbnail={thumbtr_api}>
+            TalesRunner APIs using FastAPI, Vercel
+          </WorkGridItem>
+        </Section>
         <Section>
           <WorkGridItem id="yugimeow" title="Yugimeow" thumbnail={thumbyugimeow}>
             A discord bot giving you Yu-Gi-Oh card &apos;s information in discord platforms!
