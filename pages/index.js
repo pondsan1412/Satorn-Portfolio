@@ -10,15 +10,16 @@ import {
   ListItem,
   useColorModeValue
 } from '@chakra-ui/react'
-import { ChevronRightIcon, MoonIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoGithub, IoLogoFacebook } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoGithub, IoLogoFacebook, IoCloudyNight } from 'react-icons/io5'
 import thumbyugimeow from '../public/images/works/yugimeow_web.png'
 import Image from 'next/image'
+import chatbub from '../public/images/works/ch.png'
 
 const Home = () => (
   <Layout>
@@ -31,14 +32,14 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        What&apos;s up! I&apos;m an experienced programmer living in Bangkok!
+        I&apos;ve spent time with coding more than sleep time 💀
       </Box>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Satorn Sukkang
           </Heading>
-          <p>Web Developer | Passionate Discord Bot Developer & Musician</p>
+          <p> passionate with coding/learning/sleeping </p>
         </Box>
         <Box
           flexShrink={0}
@@ -71,17 +72,13 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Satorn Sukkang is a freelance programmer from Bangkok specializing in website 
-          development and Discord bots. His projects include notable bots like Yugimeow and WR MK8DX. {' '}   
-          <Link as={NextLink} href="/works/yugimeow" passHref scroll={false}>
-            Yugimeow
-          </Link>
-          . and a Mario Kart bot called {' '}
-          <Link as={NextLink} href="https://github.com/pondsan1412/MK8DX-WR-Bot" passHref scroll={false}>
-            WR MK8DX
-          </Link>
-          . He publishes content for advertising his products and his YouTube
-          channel called &quot;
+          Satorn Sukkang is a back-end developer at Mass Corporation, 
+          specializing in developing robust server-side solutions. 
+          Previously, he has worked as a freelance programmer and a rider for various apps. 
+          Notable projects include the <Link href="https://yugimeow.vercel.app/">
+          Yugimeow
+          </Link> bot and <Link href="https://github.com/pondsan1412/MK8DX-WR-Bot"> WRMKBOT {' '}</Link>
+          He also manages a YouTube channel called &quot;
           <Link
             as={NextLink}
             href="https://www.youtube.com/@PondThunder1"
@@ -90,7 +87,7 @@ const Home = () => (
           >
             Pond Thunder
           </Link>
-          &quot;.
+          &quot; where he publishes content to promote his projects.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -110,17 +107,18 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>2024</BioYear>
-          Joining Mass Corporation Co., Ltd. (on accepting.)-
-          <p>{'       '}as an back-end developer</p>
+          <BioYear>present</BioYear>
+          Working as a back-end developer at <Link href='https://www.masscorporation.co.th/'>
+          Mass Corporation Co., Ltd.
+          </Link>
         </BioSection>
         <BioSection>
           <BioYear>2020-2024</BioYear>
-          Freelance programmer and work as rider for many apps
+          Freelance programmer and worked as a rider for various apps
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          Internships that are not related to technology
+          Internships unrelated to technology
         </BioSection>
         <BioSection>
           <BioYear>2016</BioYear>
@@ -128,7 +126,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2015</BioYear>
-          First time learning about .NET and building an application that could cheat in a game.
+          First time learning about .NET and building a game cheat application.
         </BioSection>
         <BioSection>
           <BioYear>199x</BioYear>
@@ -140,6 +138,7 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           My TechStack
         </Heading>
+        <p>Python, JavaScript, HTML, React, Next.js, phpMyAdmin, Firebase, and various tools I use.</p>
       </Section>
 
       <Section delay={0.3}>
@@ -152,7 +151,7 @@ const Home = () => (
           </Link>
           , Virtual drum,{' '}
           <Link href="https://www.youtube.com/watch?v=9pUq05J6-Ro" target="_blank">
-            piano (virtual piano)
+            Piano (virtual piano)
           </Link>
           , and{' '}
           <Link href="https://www.youtube.com/watch?v=LkGdm3X1qxM&feature=youtu.be" target="_blank">
@@ -207,26 +206,37 @@ const Home = () => (
             title="Yugimeow"
             thumbnail={thumbyugimeow}
           >
-            A Yu-Gi-Oh card&apos;s text in Thai language!
+            แปลไทยการ์ดยูกิ!!! 
           </GridItem>
         </SimpleGrid>
+       
+        <Box align="left" my={3}>
+          
+        </Box>
 
-        <Heading as="h3" variant="section-title">
-          Join Yugimeow&apos;s member!
-        </Heading>
-        <p>
-          Become Yugimeow&apos;s guardian! {' '}
-        </p>
-
-        <Box align="center" my={4}>
-          <Button
-            as={NextLink}
-            href="https://yugimeow.vercel.app/support"
-            scroll={false}
-            leftIcon={<MoonIcon />}
-            colorScheme="teal"
+        <SimpleGrid columns={[1,2,2]} gap = {6}>
+          <GridItem
+          href="https://www.youtube.com/watch?v=quJjogAaZjQ&t=89s"
+          title="Chatbubbles Web Application"
+          thumbnail={chatbub}
           >
-            Jump to donate page
+            chat pop up green screen use for making any video!
+          </GridItem>
+        </SimpleGrid>
+        <Heading as="h3" variant="section-title">
+          Try chatbubbles, it's free!
+        </Heading>
+        <Box align="" my={4}>
+        </Box>
+        <Box align="left" my={4}>
+          <Button
+          as={NextLink}
+          href="https://www.youtube.com/watch?v=quJjogAaZjQ&t=89s"
+          scroll={false}
+          leftIcon={<IoCloudyNight/>}
+          colorScheme='teal'
+          >
+            Watch example for Chatbubbles web app!
           </Button>
         </Box>
       </Section>
