@@ -24,11 +24,11 @@ const Main = ({ children, router }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@Pondmk1412" />
         <meta name="twitter:creator" content="@Pondmk1412" />
-        <meta name="twitter:image" content="https://cdn.discordapp.com/attachments/1074263724635992094/1273643217774051378/satorn_avatar.webp?ex=66bf5c2e&is=66be0aae&hm=fd1f93f87d479c3c80de7d730b914cc6d54d5ad2929d05d6e1d1616dc3ba07bf&" />
+        <meta name="twitter:image" content="https://img2.pic.in.th/pic/perfect.th.webp" />
         <meta property="og:site_name" content="Satorn Sukkang" />
         <meta name="og:title" content="Satorn Sukkang" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://cdn.discordapp.com/attachments/1074263724635992094/1273643217774051378/satorn_avatar.webp?ex=66bf5c2e&is=66be0aae&hm=fd1f93f87d479c3c80de7d730b914cc6d54d5ad2929d05d6e1d1616dc3ba07bf&" />
+        <meta property="og:image" content="https://img2.pic.in.th/pic/perfect.th.webp" />
         <title>Satorn Sukkang - Homepage</title>
       </Head>
 
