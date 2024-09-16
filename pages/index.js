@@ -21,6 +21,7 @@ import thumbyugimeow from '../public/images/works/yugimeow_web.png'
 import Image from 'next/image'
 import chatbub from '../public/images/works/ch.png'
 
+
 const Home = () => (
   <Layout>
     <Container>
@@ -58,7 +59,7 @@ const Home = () => (
             overflow="hidden"
           >
             <Image
-              src="/images/Satorn.png"
+              src="/images/satorn_old.jpg"
               alt="Profile image"
               width="100"
               height="100"
@@ -224,7 +225,7 @@ const Home = () => (
           </GridItem>
         </SimpleGrid>
         <Heading as="h3" variant="section-title">
-          Try chatbubbles, it's free!
+          Try chatbubbles, it&apos;s free!
         </Heading>
         <Box align="" my={4}>
         </Box>
