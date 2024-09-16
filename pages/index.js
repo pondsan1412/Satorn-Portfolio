@@ -40,7 +40,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Satorn Sukkang
           </Heading>
-          <p> passionate with coding/learning/sleeping </p>
+          <p> passionate with coding/learning/gaming </p>
         </Box>
         <Box
           flexShrink={0}
