@@ -109,13 +109,13 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>present</BioYear>
-          Working as a back-end developer at <Link href='https://www.masscorporation.co.th/'>
+          back-end developer at <Link href='https://www.masscorporation.co.th/'>
           Mass Corporation Co., Ltd.
           </Link>
         </BioSection>
         <BioSection>
           <BioYear>2020-2024</BioYear>
-          Freelance programmer and worked as a rider for various apps
+          Freelance programmer and worked as delivery guy
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
@@ -137,10 +137,18 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          My TechStack
+          My Tech Stack
         </Heading>
-        <p>Python, JavaScript, HTML, React, Next.js, phpMyAdmin, Firebase, and various tools I use.</p>
+        <p><strong>Programming Languages:</strong> Python, JavaScript, PHP, Dart, HTML, CSS</p>
+        <p><strong>Frontend:</strong> React.js, Flutter, bootstrap</p>
+        <p><strong>Backend:</strong> Node.js, Express.js, Flask</p>
+        <p><strong>Databases:</strong> MySQL, Firebase</p>
+        <p><strong>Version Control:</strong> Git, GitHub</p>
+        <p><strong>Web Servers:</strong> Apache</p>
+        <p><strong>Cloud & Deployment:</strong> Firebase, Heroku, Vercel, rukcom, etc.</p>
       </Section>
+
+
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">

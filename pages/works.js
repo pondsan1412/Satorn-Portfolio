@@ -10,6 +10,10 @@ import thumbslx from '../public/images/works/leaderboard_slx.jpg'
 import thumbverify from '../public/images/works/verify_tem.jpg'
 import thumbpro from '../public/images/works/raw_app.PNG'
 import thumbtr_api from '../public/images/works/tr_game.jpg'
+import diagram from '../public/images/diagramapi.jpg';
+
+
+
 const Works = () => (
   <Layout title="Works">
     <Container>
@@ -20,6 +24,11 @@ const Works = () => (
 
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem id="discord-insights-api" title="Discord Insights API" thumbnail={diagram}>
+            Return object like Messages 
+          </WorkGridItem>
+        </Section>
         <Section>
           <WorkGridItem id="tr_game_api" title="TalesRunner APIs" thumbnail={thumbtr_api}>
             TalesRunner APIs using FastAPI, Vercel
