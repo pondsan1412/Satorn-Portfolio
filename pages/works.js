@@ -12,8 +12,6 @@ import thumbpro from '../public/images/works/raw_app.PNG'
 import thumbtr_api from '../public/images/works/tr_game.jpg'
 import diagram from '../public/images/diagramapi.jpg';
 
-
-
 const Works = () => (
   <Layout title="Works">
     <Container>
