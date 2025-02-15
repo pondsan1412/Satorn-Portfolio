@@ -12,7 +12,7 @@ const VoxelDog = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlDogGLB = 'gaming_set_up.glb'
+  const urlDogGLB = 'keyboard_2024.glb'
 
 
   const handleWindowResize = useCallback(() => {
@@ -44,7 +44,7 @@ const VoxelDog = () => {
       refRenderer.current = renderer
       const scene = new THREE.Scene()
 
-      const target = new THREE.Vector3(-0.5, 1.2, 0)
+      const target = new THREE.Vector3(-0.5, 0.1, 0)
       const initialCameraPosition = new THREE.Vector3(
         20 * Math.sin(0.2 * Math.PI),
         10,
@@ -53,13 +53,13 @@ const VoxelDog = () => {
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.005 + 4.8
+      const scale = scH * 0.001 + 1.64
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
         scale,
         -scale,
-        0.01,
+        0.1,
         50000
       )
       camera.position.copy(initialCameraPosition)
@@ -91,10 +91,10 @@ const VoxelDog = () => {
           const p = initialCameraPosition
           const rotSpeed = -easeOutCirc(frame / 120) * Math.PI * 20
 
-          camera.position.y = 10
-          camera.position.x =
+          camera.position.y = 16
+          camera.position.x = 
             p.x * Math.cos(rotSpeed) + p.z * Math.sin(rotSpeed)
-          camera.position.z =
+          camera.position.z = 
             p.z * Math.cos(rotSpeed) - p.x * Math.sin(rotSpeed)
           camera.lookAt(target)
         } else {

@@ -11,6 +11,7 @@ import thumbverify from '../public/images/works/verify_tem.jpg'
 import thumbpro from '../public/images/works/raw_app.PNG'
 import thumbtr_api from '../public/images/works/tr_game.jpg'
 import diagram from '../public/images/diagramapi.jpg';
+import thumbLPR from '../public/images/works/LPR-TEST.jpg'
 
 const Works = () => (
   <Layout title="Works">
@@ -20,7 +21,14 @@ const Works = () => (
       </Heading>
 
 
-
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem id="YOLOv8-LPR" title="YOLOv8-LPR" thumbnail={thumbLPR}>
+            A project that detect license plate using YOLOv8 and OCR Model from AIFORTHAI
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+      
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="discord-insights-api" title="Discord Insights API" thumbnail={diagram}>

@@ -8,7 +8,10 @@ import {
   Button,
   List,
   ListItem,
-  useColorModeValue
+  useColorModeValue,
+  Progress,
+  Text,
+  Stack
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -33,7 +36,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        I&apos;ve spent time with coding more than sleep time 💀
+        Coding &lt; Sleeping 💀
       </Box>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
@@ -137,18 +140,248 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          My Tech Stack
+          My Skills
         </Heading>
-        <p><strong>Programming Languages:</strong> Python, JavaScript, PHP, Dart, HTML, CSS</p>
-        <p><strong>Frontend:</strong> React.js, Flutter, bootstrap</p>
-        <p><strong>Backend:</strong> Node.js, Express.js, Flask</p>
-        <p><strong>Databases:</strong> MySQL, Firebase</p>
-        <p><strong>Version Control:</strong> Git, GitHub</p>
-        <p><strong>Web Servers:</strong> Apache</p>
-        <p><strong>Cloud & Deployment:</strong> Firebase, Heroku, Vercel, rukcom, etc.</p>
+        <Box mb={6}>
+          <Text fontSize="lg" fontWeight="bold" mb={4}>Python Frameworks</Text>
+          
+          <Stack spacing={4}>
+            <Box>
+              <Text mb={1}>Flask</Text>
+              <Progress 
+                value={65} 
+                colorScheme="green" 
+                hasStripe 
+                isAnimated 
+                size="sm"
+                css={{
+                  '& > div': {
+                    animation: 'progress-stripe 0.5s linear infinite', 
+                  },
+                  '@keyframes progress-stripe': {
+                    from: {
+                      backgroundPosition: '1rem 0'
+                    },
+                    to: {
+                      backgroundPosition: '0 0'
+                    }
+                  }
+                }}
+              />
+            </Box>
+            
+            <Box>
+              <Text mb={1}>Django</Text>
+              <Progress 
+                value={15} 
+                colorScheme="blue" 
+                hasStripe 
+                isAnimated 
+                size="sm"
+                css={{
+                  '& > div': {
+                    animation: 'progress-stripe 0.9s linear infinite',
+                },
+                '@keyframes progress-stripe': {
+                  from: {
+                    backgroundPosition: '1rem 0'
+                  },
+                  to: {
+                    backgroundPosition: '0 0'
+                  }
+                }
+              }} 
+              />
+            </Box>
+            
+            <Box>
+              <Text mb={1}>FastAPI</Text>
+              <Progress 
+                value={85} 
+                colorScheme="purple" 
+                hasStripe 
+                isAnimated 
+                size="sm"
+                css={{
+                  '& > div': {
+                    animation: 'progress-stripe 0.1s linear infinite',
+                },
+                '@keyframes progress-stripe': {
+                  from: {
+                    backgroundPosition: '1rem 0'
+                  },
+                  to: {
+                    backgroundPosition: '0 0'
+                  }
+                }}} 
+              />
+            </Box>
+            
+            <Box>
+              <Text mb={1}>PyTorch</Text>
+              <Progress
+                value={25}
+                colorScheme="red"
+                hasStripe
+                isAnimated
+                size="sm"
+                css={{
+                  '& > div': {
+                    animation: 'progress-stripe 0.7s linear infinite',
+                },
+                '@keyframes progress-stripe': {
+                  from: {
+                    backgroundPosition: '1rem 0'
+                  },
+                  to: {
+                    backgroundPosition: '0 0'
+                  }
+                }}}
+                />
+            </Box>
+            <Box>
+              <Text mb={1}>PySerial</Text>
+              <Progress
+                value={10}
+                colorScheme="yellow"
+                hasStripe
+                isAnimated
+                size="sm"
+                css={{
+                  '& > div': {
+                    animation: 'progress-stripe 0.5s linear infinite',
+                },
+                '@keyframes progress-stripe': {
+                  from: {
+                    backgroundPosition: '1rem 0'
+                  },
+                  to: {
+                    backgroundPosition: '0 0'
+                  }
+                }}}
+                />
+            </Box>
+            <p></p>
+            <Text fontSize="lg" fontWeight="bold" mb={4}>IoT & Libraries </Text>
+            <Box>
+              <Text mb={1}>Paho MQTT</Text>
+              <Progress
+                value={50}
+                colorScheme="green"
+                hasStripe
+                isAnimated
+                size="sm"
+                css={{
+                  '& > div': {
+                    animation: 'progress-stripe 0.5s linear infinite',
+                },
+                '@keyframes progress-stripe': {
+                  from: {
+                    backgroundPosition: '1rem 0'
+                  },
+                  to: {
+                    backgroundPosition: '0 0'
+                  }
+                }}}
+                />
+            </Box>
+            <Box>
+              <Text mb={1}>OpenCV</Text>
+              <Progress
+                value={40}
+                colorScheme="blue"
+                hasStripe
+                isAnimated
+                size="sm"
+                css={{
+                  '& > div': {
+                    animation: 'progress-stripe 0.9s linear infinite',
+                },
+                '@keyframes progress-stripe': {
+                  from: {
+                    backgroundPosition: '1rem 0'
+                  },
+                  to: {
+                    backgroundPosition: '0 0'
+                  }
+                }}}
+                />
+            </Box>
+            <p></p>
+            <Text fontSize="lg" fontWeight="bold" mb={4}>Javascript Frameworks</Text>
+            <Box>
+              <Text mb={1}>React</Text>
+              <Progress
+                value={20}
+                colorScheme="teal"
+                hasStripe
+                isAnimated
+                size="sm"
+                css={{
+                  '& > div': {
+                    animation: 'progress-stripe 0.9s linear infinite',
+                },
+                '@keyframes progress-stripe': {
+                  from: {
+                    backgroundPosition: '1rem 0'
+                  },
+                  to: {
+                    backgroundPosition: '0 0'
+                  }
+                }}}
+
+                />
+            </Box>
+            <Box>
+              <Text mb={1}>Next.js</Text>
+              <Progress
+                value={40}
+                colorScheme="gray"
+                hasStripe
+                isAnimated
+                size="sm"
+                css={{
+                  '& > div': {
+                    animation: 'progress-stripe 0.9s linear infinite',
+                },
+                '@keyframes progress-stripe': {
+                  from: {
+                    backgroundPosition: '1rem 0'
+                  },
+                  to: {
+                    backgroundPosition: '0 0'
+                  }
+                }}}
+                />
+
+            </Box>
+            <Box>
+              <Text mb={1}>Node.js & Express</Text>
+              <Progress
+                value={60}
+                colorScheme="green"
+                hasStripe
+                isAnimated
+                size="sm"
+                css={{
+                  '& > div': {
+                    animation: 'progress-stripe 0.9s linear infinite',
+                },
+                '@keyframes progress-stripe': {
+                  from: {
+                    backgroundPosition: '1rem 0'
+                  },
+                  to: {
+                    backgroundPosition: '0 0'
+                  }
+                }}}
+                />
+            </Box>
+            
+
+          </Stack>
+        </Box>
       </Section>
-
-
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
