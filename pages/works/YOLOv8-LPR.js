@@ -10,8 +10,6 @@ import {
 import { Title, Meta, WorkImage } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
-import detected_lp1 from '../../public/images/works/output_yolo8.jpg'
-import Head from 'next/head'
 import Section from '../../components/section'
 
 const Work = () => (
