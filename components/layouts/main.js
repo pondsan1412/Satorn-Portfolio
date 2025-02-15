@@ -26,7 +26,7 @@ const Main = ({ children, router }) => {
         <meta name="twitter:creator" content="@Pondmk1412" />
         <meta name="twitter:image" content="https://img2.pic.in.th/pic/perfect.th.webp" />
         <meta property="og:site_name" content="Satorn Sukkang" />
-        <meta name="og:title" content="Satorn Sukkang" />
+        <meta name="og:title" content="Satorn Sukkang PortFolio" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://img2.pic.in.th/pic/perfect.th.webp" />
         <title>Satorn Sukkang - Homepage</title>
