@@ -12,6 +12,7 @@ import thumbpro from '../public/images/works/raw_app.PNG'
 import thumbtr_api from '../public/images/works/tr_game.jpg'
 import diagram from '../public/images/diagramapi.jpg';
 import thumbLPR from '../public/images/works/LPR-TEST.jpg'
+import thumbMK8DXSoundboard from '../public/images/works/mk8dxsoundboard.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -19,19 +20,18 @@ const Works = () => (
       <Heading as="h3" fontSize={20} mb={4}>
         Works
       </Heading>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
-          <WorkGridItem id="mk8dxsoundboard" title="MK8DX Soundboard" thumbnail={thumbmk}>
-            A soundboard for MK8DX that plays sound in discord voice channel
-            </WorkGridItem>
-        </Section>
-      </SimpleGrid>
+      
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="YOLOv8-LPR" title="YOLOv8-LPR" thumbnail={thumbLPR}>
             A project that detect license plate using YOLOv8 and OCR Model from AIFORTHAI
           </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="mk8dxsoundboard" title="mk8dxSoundboard" thumbnail={thumbMK8DXSoundboard}>
+            A soundboard for MK8DX that plays sound in discord voice channel
+            helpful for deaf people interact with other people in voice channel
+            </WorkGridItem>
         </Section>
       </SimpleGrid>
       

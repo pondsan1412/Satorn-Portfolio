@@ -43,7 +43,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Satorn Sukkang
           </Heading>
-          <p> passionate with coding/learning/gaming </p>
+          <p> passionate with coding/learning </p>
         </Box>
         <Box
           flexShrink={0}
@@ -76,22 +76,23 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Satorn Sukkang is a back-end developer at Mass Corporation, 
+          Satorn Sukkang is a hired back-end developer
           specializing in developing robust server-side solutions. 
-          Previously, he has worked as a freelance programmer and a rider for various apps. 
+          Previously, he has worked as a freelance programmer and delivery guy.
           Notable projects include the <Link href="https://yugimeow.vercel.app/">
-          Yugimeow
-          </Link> bot and <Link href="https://github.com/pondsan1412/MK8DX-WR-Bot"> WRMKBOT {' '}</Link>
-          He also manages a YouTube channel called &quot;
+          Yugimeow</Link>,
+          <Link href="https://github.com/pondsan1412/MK8DX-WR-Bot"> WRMKBOT</Link>,
+          <Link href="https://www.pxteam.site/"> MK8DXSoundboard {' '} </Link>
+          He also manages a YouTube channel called 
           <Link
             as={NextLink}
             href="https://www.youtube.com/@PondThunder1"
             passHref
             target="_blank"
           >
-            Pond Thunder
+            {'  '}Pond Thunder
           </Link>
-          &quot; where he publishes content to promote his projects.
+          {' '} where he publishes content to promote his projects.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
