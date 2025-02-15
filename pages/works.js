@@ -20,7 +20,13 @@ const Works = () => (
         Works
       </Heading>
 
-
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem id="mk8dxsoundboard" title="MK8DX Soundboard" thumbnail={thumbmk}>
+            A soundboard for MK8DX that plays sound in discord voice channel
+            </WorkGridItem>
+        </Section>
+      </SimpleGrid>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="YOLOv8-LPR" title="YOLOv8-LPR" thumbnail={thumbLPR}>

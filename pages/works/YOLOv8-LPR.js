@@ -4,11 +4,15 @@ import {
     Link,
     ListItem,
     AspectRatio,
-    List
+    List,
+    Heading
 } from '@chakra-ui/react'
-import { Title, Meta } from '../../components/work'
+import { Title, Meta, WorkImage } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
+import detected_lp1 from '../../public/images/works/output_yolo8.jpg'
+import Head from 'next/head'
+import Section from '../../components/section'
 
 const Work = () => (
     <Layout title="YOLOv8-LPR">
@@ -17,7 +21,7 @@ const Work = () => (
                 YOLOv8-LPR <Badge>2024-</Badge>
             </Title>
             <P>
-                A project that detect license plate using YOLOv8 and Tesseract OCR
+                Vehicle license plate recognition system using YOLOv8 and OCR technology.
             </P>
             <List ml={4} my={4}>
                 <ListItem>
@@ -30,6 +34,25 @@ const Work = () => (
                     <span>Python, YOLOv8, Tesseract OCR, PySerial</span>
                 </ListItem>
             </List>
+            <p> </p>
+                <Section delay={0.1} title="Development Step">
+                    <Heading as="h3" fontsize="xl" mb={2}>
+                        Development Moment
+                    </Heading>
+                </Section>
+                <p> <strong> Detected License Plate </strong></p>
+                <WorkImage src="/images/works/20240829_111700.jpg">
+                Detected License Plate</WorkImage>
+                <p>
+                    <video width="640 px" height={360} controls>
+                        <source src="/images/works/videos/camface.mp4"
+                            type="video/mp4" />
+                    </video>
+                </p>
+                <WorkImage src="/images/works/output_yolo8.jpg" alt="YOLOv8-LPR" />
+                <p> <strong>Detected my face</strong>
+                    <WorkImage src="/images/works/face.jpg" alt="Pondfaces" />
+                </p>
             <AspectRatio maxW="640px" ratio={.7} my={4}>
                 <iframe
                     src="https://www.youtube.com/embed/UhECKw2c_mY"
